@@ -26,24 +26,27 @@ install wget --enable-iri
 
 # Install RingoJS and Narwhal
 # Note that the order in which these are installed is important; see http://git.io/brew-narwhal-ringo.
-install ringojs
-install narwhal
+#install ringojs
+#install narwhal
 
 # Install more recent versions of some OS X tools
-install vim --override-system-vi
+#install vim --override-system-vi
 install homebrew/dupes/grep
 install homebrew/dupes/screen
 install homebrew/php/php55 --with-gmp
 
 # Install other useful binaries
 install ack
+install ansible
 install bfg
 #install exiv2
 install foremost
 install git
 install hashpump
+install htop
 install imagemagick --with-webp
 install lynx
+install mysql
 install nmap
 install node # This installs `npm` too using the recommended installation method
 install p7zip
