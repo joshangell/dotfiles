@@ -33,7 +33,9 @@ install wget --enable-iri
 #install vim --override-system-vi
 install homebrew/dupes/grep
 install homebrew/dupes/screen
-install homebrew/php/php55 --with-gmp
+install php55
+install php55-mcrypt
+install php55-imagick
 
 # Install other useful binaries
 install ack
